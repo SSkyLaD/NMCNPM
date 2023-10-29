@@ -1,0 +1,61 @@
+.my-cloud{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, #AC82CD 0%, #31344D 35.52%, #000 100%);
+    color: white;
+
+}
+
+.my-cloud .my-cloud-container{
+    padding: 80px 40px 0 40px;
+
+}
+
+.my-cloud .my-cloud-container .cloud-status{
+    width: 1300px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.my-cloud .my-cloud-container .cloud-status img{
+    height: 150px;
+    margin-right: 20px;
+    border-radius: 1.25rem;
+    box-shadow: -1px -7px 20px 4px rgba(0, 0, 0, 0.24);
+}
+
+.my-cloud .my-cloud-container .cloud-status .storage-status{
+    display: flex;
+    align-items: center;
+    width: 28.9375rem;
+    height: 4.875rem;
+    border-radius: 1.875rem;
+    background: rgba(130, 139, 205, 0.15);
+    align-self: center;
+    margin-left: auto;
+    padding: 0 20px;
+}
+
+.my-cloud .my-cloud-container .cloud-status .storage-status input{
+    margin-left: auto;
+}
+
+.my-cloud .my-cloud-container .manage-storage{
+    margin-top: 40px;
+    display: flex;
+}
+
+.my-cloud .my-cloud-container .manage-storage .left{
+    padding: 40px;
+    width: 600px;
+    height: 555px;
+    border-top-right-radius: 1.875rem;
+    border-top-left-radius: 1.875rem;
+    background: rgba(130, 139, 205, 0.15);
+    overflow: auto;
+}
+
+.my-cloud .my-cloud-container .manage-storage .left .fuction{
+    display: flex;
+}
